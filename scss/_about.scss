@@ -1,0 +1,39 @@
+#about {
+  &-a {
+    .info {
+      &__img {
+        border: 1px solid $light;
+        padding: 0.5rem;
+        border-radius: 3px;
+      }
+
+      &__bio {
+        border: 1px solid $light;
+        padding: 0.8rem;
+      }
+    }
+  }
+
+  &-b {
+    .references {
+      ul {
+        list-style: none;
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+      }
+      p {
+        border: 1px solid $secondary;
+        border-radius: 5px;
+        padding: 0.5rem;
+      }
+
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        padding-right: 0.5rem;
+      }
+    }
+  }
+}

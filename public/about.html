@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="../css/owl.theme.default.css" />
+    <link rel="stylesheet" href="../css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <title>MyProje</title>
+  </head>
+  <body>
+    <!-- color problemini buldum, belirlenmiş bir color var onu ezmem gerekiyor onuda bs-overside ile yapabiliriz. color sıkıntısı bootstrap den kaynaklı!! +++ text center ezme işlemi yaparak onu bul kesinlikle!! -->
+
+    <!-- header -->
+    <header id="header__inner">
+      <div class="container">
+        <nav class="navbar navbar-dark navbar-expand justify-content-end">
+          <ul class="navbar-nav items">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link active">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="projects.html" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- section a  -->
+
+    <section id="about-a" class="text-center py-4">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="border-bottom"></div>
+
+        <p class="lead">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
+          obcaecati optio sed et aliquam aut expedita consectetur nemo tempora
+          laboriosam.
+        </p>
+        <div class="info row">
+          <div class="col-4">
+            <img src="../public/img/aboutyeni.JPG" alt="" class="info__img" />
+          </div>
+          <div class="info__bio col-8">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto amet illum aperiam sed reiciendis est. Error sequi
+              dolor dignissimos, quidem beatae, aliquam fugit, doloremque ut
+              possimus maxime tenetur. Velit, consectetur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section b -->
+    <section id="about-b" class="text-center py-2">
+      <div class="container">
+        <h2 class="section-title">References</h2>
+        <div class="border-bottom"></div>
+        <p class="lead text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
+          tenetur.
+        </p>
+        <div class="references owl-carousel owl-theme">
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Molestias, voluptas?
+            </p>
+            <ul>
+              <li><img src="img/hakanhoca.jpeg" alt="" /></li>
+              <li>Lorem, ipsum dolor.</li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Molestias, voluptas?
+            </p>
+            <ul>
+              <li><img src="img/hakanhakyemez.jpg" alt="" /></li>
+              <li>Lorem, ipsum dolor.</li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Molestias, voluptas?
+            </p>
+            <ul>
+              <li><img src="img/aboutyeni.JPG" alt="" /></li>
+              <li>Lorem, ipsum dolor.</li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Molestias, voluptas?
+            </p>
+            <ul>
+              <li><img src="img/about.jpg" alt="" /></li>
+              <li>Lorem, ipsum dolor.</li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Molestias, voluptas?
+            </p>
+            <ul>
+              <li><img src="img/about.jpg" alt="" /></li>
+              <li>Lorem, ipsum dolor.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer " class="text-bg-dark">
+      <div
+        class="footer-content align-items-center container d-flex justify-content-between"
+        style="height: 5rem"
+      >
+        <p class="mb-0">Copyright &copy; 2025. All Rights Reserved.</p>
+
+        <div class="social">
+          <i
+            class="fab fa-facebook border border-2 border-white rounded-circle p-2 mx-2"
+          ></i>
+          <i
+            class="fab fa-twitter border border-2 border-white rounded-circle p-2 mx-2"
+          ></i>
+          <i
+            class="fab fa-instagram border border-2 border-white rounded-circle p-2 mx-2"
+          ></i>
+          <i
+            class="fab fa-youtube border border-2 border-white rounded-circle p-2 mx-2"
+          ></i>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
